@@ -55,7 +55,7 @@
                         <img src="{{asset('restos/img/food_item/food_item_1.png')}}" alt="">
                     </div>
                     <div class="single_blog_text">
-                        <h3>Cremyce Noodvles</h3>
+                        <h3>Cremyce Noodvlhhhhhhes</h3>
                         <h3>Cremy Noodles</h3>
                         <h3>Cremy Noodles</h3>
                         <h3>Cremy Noodles</h3>
