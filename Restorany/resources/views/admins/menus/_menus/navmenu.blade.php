@@ -120,23 +120,23 @@
 
                     </ul>
                 </li>
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-clipboard-list msicons"></i>
                         <p style="font-size: 20px; color: var(--color-ti); font-family : 'Times New Roman', Times, serif;">
-                            Boutiques
+                            Restaurants
                             <i class="fas fa-angle-left right msicons"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="./adminboutique" class="nav-link">
+                            <a href="./restaurant" class="nav-link">
                             <i class="far fa-circle nav-icon"></i>
                             <p>boutique</p>
                             </a>
                         </li>
                     </ul>
-                </li> --}}
+                </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-clipboard-list msicons"></i>

@@ -25,7 +25,8 @@
                 /* animation: textGradient 3s ease infinite; */
             }
             .moncard{
-                background : linear-gradient(90deg, #22184C,#D097BF,#7B2974, #3C1D60, #01010C);
+                background : linear-gradient(90deg, #030207, #60528A, #10040d,#030207);
+                /* background : linear-gradient(90deg, #22184C,#D097BF,#7B2974, #3C1D60, #01010C); */
             }
         </style>
     {{-- MON CSS FIN  --}}

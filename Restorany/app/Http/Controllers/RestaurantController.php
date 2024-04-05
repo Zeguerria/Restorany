@@ -17,9 +17,9 @@ class RestaurantController extends Controller
     public function index()
     {
         $data['RestaurantTotal']= Restaurant::where('supprimer','=',0)->orderBy('nom')->count();
-        $data['RestaurantotalC']= Restaurant::where('supprimer','=',1)->orderBy('nom')->count();
+        $data['RestaurantTotalC']= Restaurant::where('supprimer','=',1)->orderBy('nom')->count();
         $data ['restaurants'] = Restaurant::where('supprimer','=',0)->orderBy('nom')->get();
-        return view('admins.gestions.restaurants.restaurants')->with($data);
+        return view('admins.gestions.restaurants.restaurant')->with($data);
     }
     public function indexCorbeille()
     {
@@ -122,7 +122,7 @@ class RestaurantController extends Controller
     }
 
     public function corbeille_all(){
-        $restaurants = Restaurant::where('supprimer', 0)->orderBy('name')->get();
+        $restaurants = Restaurant::where('supprimer', 0)->orderBy('nom')->get();
         try{
             foreach($restaurants as $value){
                 $value->update([
